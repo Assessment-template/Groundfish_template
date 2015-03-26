@@ -27,7 +27,3 @@ Perhaps some text could be added here on the commands required to convert an R M
 6. Export the files as a .bib file, and save and overwrite the chinarockfish2015.bib file in your version-controlled China2015 working folder.
 7. Make sure you include the new .bib file when you push your changes to GitHub
 
-### When to get China Rockfish-specific
-
-Any thoughts on when to split China-specific work from the general template?
-
