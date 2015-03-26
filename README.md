@@ -1,27 +1,26 @@
-# Groundfish TOR #
-
-### Terms of Reference Template in R Markdown
+Groundfish TOR
+Terms of Reference Template in R Markdown
 
 Converted from Word by Melissa Monk, NOAA SWFSC
 
-### How to use this template
+How to use this template
 
-1. Make sure you have the necessary R packages installed
-    * rmarkdown
-    * r4ss
-    * knitr
-    * xtable
-2. Make sure you have TeX installed
-    * Add any required LaTeX packages to the header.tex file
-
-3. Template is using the citation style of CJAFS, but this can be changed by altering the .csl file in the YAML
-
-4. The bibliography is currently generated from the chinarockfish2015.bib file.  Add references to the China Rockfish Assessment 2015 group on Mendeley.  The .bib file will be generated from this list of references.  Mendeley is a reference manager found here: http://www.mendeley.com/.  
-
-
+Make sure you have the necessary R packages installed
+rmarkdown
+r4ss
+knitr
+xtable
+Make sure you have the necessary LaTeX packages installed
+[package names here]
 Perhaps some text could be added here on the commands required to convert an R Markdown (.Rmd) file to PDF or whatever other formats we might require.
 
-### When to get China Rockfish-specific
+Directions for creating the .bib file with Mendeley (free account required).
 
-Any thoughts on when to split China-specific work from the general template?  
-Melissa's thought: Do you think any any other STAT teams want to use the template this cycle?  If so, then we can distribute what we have whenever.  If not, we can strip down our final report to create a template.
+Download Mendeley Desktop from https://www.mendeley.com/download-mendeley-desktop/ and also install the Web Importer (for use with Google Scholar).
+Join the China Rockfish Assessment 2015 group on Mendeley.
+Either input a reference manually or import it to Mendeley from Google Scholar.
+Add that reference to the China Rockfish Assessment 2015 folder in Mendeley Desktop.
+Make sure the Citation Key field is not blank and matches the key you want to reference it as in the RMarkdown document.
+Go to Documents in the China Rockfish folder in Mendeley, select all, and go to File-->Export.
+Export the files as a .bib file, and save and overwrite the chinarockfish2015.bib file in your version-controlled China2015 working folder.
+Make sure you include the new .bib file when you push your changes to GitHub
